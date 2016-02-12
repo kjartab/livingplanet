@@ -1,0 +1,446 @@
+PRODUCT="CS_OFFL_SIR_FDM_2__20160101T000841_20160101T000847_C001       "
+PROC_STAGE=O
+REF_DOC="CS-RS-ACS-GS-5123 04.00"
+                                        
+ACQUISITION_STATION="Kiruna              "
+PROC_CENTER="PDS   "
+PROC_TIME="01-JAN-2016 07:05:57.893376"
+SOFTWARE_VER="IPF2FDM/3.1   "
+                                        
+SENSING_START="01-JAN-2016 00:08:40.629100"
+SENSING_STOP="01-JAN-2016 00:08:47.374670"
+                                        
+PHASE=2
+CYCLE=+010
+REL_ORBIT=+00070
+ABS_ORBIT=+30380
+STATE_VECTOR_TIME="01-JAN-2016 00:08:43.881519"
+DELTA_UT1=+.081950<s>
+X_POSITION=+0141951.906<m>
+Y_POSITION=+0209927.125<m>
+Z_POSITION=-7100996.000<m>
+X_VELOCITY=+6565.976074<m/s>
+Y_VELOCITY=-3618.316650<m/s>
+Z_VELOCITY=+0030.094259<m/s>
+VECTOR_SOURCE="DN"
+                                        
+UTC_SBT_TIME="                           "
+SAT_BINARY_TIME=+0000000000
+CLOCK_STEP=+0000000000<ps>
+                                
+LEAP_UTC="                           "
+LEAP_SIGN=+000
+LEAP_ERR=0
+                                        
+PRODUCT_ERR=0
+TOT_SIZE=+00000000000000021546<bytes>
+SPH_SIZE=+0000013547<bytes>
+NUM_DSD=+0000000044
+DSD_SIZE=+0000000280<bytes>
+NUM_DATA_SETS=+0000000001
+CRC=-00001
+                             
+SPH_DESCRIPTOR="SIR_FDM_2_ SPECIFIC HEADER  "
+START_RECORD_TAI_TIME="01-JAN-2016 00:09:17.051206"
+STOP_RECORD_TAI_TIME="01-JAN-2016 00:09:22.711831"
+ABS_ORBIT_START=030380
+REL_TIME_ASC_NODE_START=4464.500488<s>
+ABS_ORBIT_STOP=030380
+REL_TIME_ASC_NODE_STOP=4470.161133<s>
+EQUATOR_CROSS_TIME_UTC="31-DEC-2015 22:54:16.518444"
+EQUATOR_CROSS_LONG=-0010184254<10-6degE>
+ASCENDING_FLAG=A
+START_LAT=-0087976759<10-6degN>
+START_LONG=+0060736521<10-6degE>
+STOP_LAT=-0087945957<10-6degN>
+STOP_LONG=+0051202627<10-6degE>
+                                                  
+L1_PROC_FLAG=0
+L1_PROCESSING_QUALITY=+09000<10-2%>
+L1_PROC_THRESH=+00500<10-2%>
+NUM_L1_DSR_PROC=+0000000008
+                                     
+INSTR_ID="A"
+LRM_MODE_PERCENT=+10000<10-2%>
+SAR_MODE_PERCENT=+00000<10-2%>
+SARIN_MODE_PERCENT=+00000<10-2%>
+OTHER_MODES_PERCENT=+00000<10-2%>
+                                                  
+OPEN_OCEAN_PERCENT=+00000<10-2%>
+CLOSE_SEA_PERCENT=+00000<10-2%>
+CONTINENT_ICE_PERCENT=+10000<10-2%>
+LAND_PERCENT=+00000<10-2%>
+                                                  
+L2_PROD_STATUS=0
+L2_PROC_FLAG=0
+L2_PROCESSING_QUALITY=+08750<10-2%>
+L2_PROC_THRESH=+00500<10-2%>
+                                                  
+DS_NAME="SIR_FDM_L2                  "
+DS_TYPE=M
+FILENAME="                                                              "
+DS_OFFSET=+00000000000000014794<bytes>
+DS_SIZE=+00000000000000006752<bytes>
+NUM_DSR=+0000000008
+DSR_SIZE=+0000000844<bytes>
+                                
+DS_NAME="ORBIT_FILE                  "
+DS_TYPE=R
+FILENAME="CS_OPER_MPL_ORBPRE_20151231T001000_20160130T001000_0001.EEF   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="PROC_CONFIG_PARAMS_FILE     "
+DS_TYPE=R
+FILENAME="CS_OPER_PCONF_IPF1_20140801T000000_99999999T000000_0008.XML   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="CONSTANTS_FILE              "
+DS_TYPE=R
+FILENAME="Geophysical_Constants_3.0.xml                                 "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="IPF_RA_DATABASE_FILE        "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_IPFDBA_20150222T000000_99999999T999999_0001.EEF   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="DORIS_USO_DRIFT_FILE        "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_DORUSO_20100411T040029_20151231T012203_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="STAR_TRACKER_LEVEL_0_FILE   "
+DS_TYPE=R
+FILENAME="CS_OPER_STR1ATT_0__20151231T231024_20160101T055746_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="ORBIT_FILE                  "
+DS_TYPE=R
+FILENAME="CS_OPER_DOR_NAV_0__20151231T231025_20160101T055745_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="CALIBRATION_TYPE_1_FILE     "
+DS_TYPE=R
+FILENAME="CS_OFFL_SIR1LRC11B_20151230T190148_20151230T190151_C001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SIRAL_LEVEL_0_FILE          "
+DS_TYPE=R
+FILENAME="CS_OPER_SIR1LRM_0__20160101T000841_20160101T000847_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SIR_COMPLEX_CAL1_SARIN      "
+DS_TYPE=R
+FILENAME="CS_OFFL_SIR_SICC1B_20151231T084338_20151231T084450_C001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SCENARIO_FILE               "
+DS_TYPE=R
+FILENAME="CS_OPER_MPL_ORBREF_20150629T055933_20160701T114422_0001.EEF   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="CALIBRATION_TYPE_2_FILE     "
+DS_TYPE=R
+FILENAME="CS_OFFL_SIR1SAC21B_20151221T113155_20151221T113416_C001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SURFACE_PRESSURE_FORECAST   "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXISURFPS_20160101T000000_20160101T000000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SURFACE_PRESSURE_FORECAST   "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXISURFPS_20160101T060000_20160101T060000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="MEAN_PRESSURE_FORECAST      "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXISEAMPS_20160101T000000_20160101T000000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="MEAN_PRESSURE_FORECAST      "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXISEAMPS_20160101T060000_20160101T060000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="WET_TROPOSPHERE_FORECAST    "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXIWETTRP_20160101T000000_20160101T000000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="WET_TROPOSPHERE_FORECAST    "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXIWETTRP_20160101T060000_20160101T060000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="U_WIND_FORECAST             "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXIU_WIND_20160101T000000_20160101T000000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="U_WIND_FORECAST             "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXIU_WIND_20160101T060000_20160101T060000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="V_WIND_FORECAST             "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXIV_WIND_20160101T000000_20160101T000000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="V_WIND_FORECAST             "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXIV_WIND_20160101T060000_20160101T060000_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="METEO_GRID_DEF_FILE         "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_ALTGRD_20110504T100000_20301231T235959_0003.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S1S2_PRESSURE_00H_MAP       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_PRSS00_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S1S2_PRESSURE_06H_MAP       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_PRSS06_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S1S2_PRESSURE_12H_MAP       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_PRSS12_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S1S2_PRESSURE_18H_MAP       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_PRSS18_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S1_TIDE_AMPLITUDE_MAP       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_S1AMPL_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S1_TIDE_PHASE_MAP           "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_S1PHAS_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S2_TIDE_AMPLITUDE_MAP       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_S2AMPL_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="S2_TIDE_PHASE_MAP           "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_S2PHAS_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="GPS_IONO_MAP_FORECAST       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUXIIONGIM_20160101T000000_20160101T235959_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="OCEAN_TIDE_FILE             "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_OCTIDE_00000000T000000_99999999T999999_0003.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="TIDAL_LOADING_FILE          "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_TDLOAD_00000000T000000_99999999T999999_0003.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="EARTH_TIDE_FILE             "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_CARTWR_00000000T000000_99999999T999999_0002.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="POLE_TIDE_FILE              "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_POLLOC_19870101T000000_20161228T000000_0002.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SURFACE_TYPE_FILE           "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_LS_MAP_00000000T000000_99999999T999999_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="PROC_CONFIG_PARAMS_FILE     "
+DS_TYPE=R
+FILENAME="CS_OPER_PCONF_IPF2_20150427T000000_99999999T999999_0010.XML   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SIRAL_LEVEL_1B_FILE         "
+DS_TYPE=R
+FILENAME="CS_OFFL_SIR_FDM_1B_20160101T000841_20160101T000847_C001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="SIR_L1B_FDM                 "
+DS_TYPE=R
+FILENAME="CS_OPER_INT_FDM_1__20160101T000840_20160101T000847_0001.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="MEAN_SEA_SURFACE_FILE       "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_MSSURF_00000000T000000_99999999T999999_0007.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="GEOID_FILE                  "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_GEOID__00000000T000000_99999999T999999_0002.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+DS_NAME="ODLE_FILE                   "
+DS_TYPE=R
+FILENAME="CS_OPER_AUX_ODLE___00000000T000000_99999999T999999_0002.DBL   "
+DS_OFFSET=+00000000000000000000<bytes>
+DS_SIZE=+00000000000000000000<bytes>
+NUM_DSR=+0000000000
+DSR_SIZE=+0000000000<bytes>
+                                
+  Ô  -  Èÿù)ÿùáÃÿúšÿûRJÿü
+ŽÿüÂÑÿý{ÿþ3Xÿþë›ÿÿ£ß  \" f Ì© „í =0 õs ­· eú > ÖŠËÏÛËÎÊËÎ?ËÍÛËÍŸËÍŠËÍËÍ×ËÎ9ËÎÂËÏsËÐKËÑKËÒrËÓÁËÕ7ËÖÕËØšËÚ‡ËÜ›ËÞ×$3¨\$¨#$›ÊØ$Šƒ$ƒJ8$w	Ù$jÉ‹$^‰/$RHê$F®$9Èn$-ˆN$!H/$8$ÈH#üˆ†#ðHâ#ä	P#×Éô#ËŠ¯#¿K       ,¡£,¡Ç,¡·,¡¦,¡”,¡ƒ,¡r,¡a,¡O,¡=,¡,,¡,¡,¡ö,¡ã,¡Ñ,¡¿,¡¬,¡
+™,¡	‡,¡téR  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿú%ÿû˜ÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ              €   ÿÿŸœ .­ýÿþÿþ  ÿü    ùûï²                                                 Ô  - -Uÿù)ÿùáÂÿúšÿûRIÿü
+ÿüÂÐÿý{ÿþ3Wÿþëšÿÿ£Þ  \! e Ì¨ „ì =/ õr ­¶ eù = Ö€Ëÿ™Ëá:ËãÅËæwËéPËìQËïzËòÊËöAËùàËý¦Ë”Ë©Ë	åËIËÔË‡ËaË!cË&ŒË+Ü#>Â=#³$#¦Í}#šŽù#ŽP¿#‚¯#uÔî#i—]#]Z"#Q/#Dàu#8¤#,gÿ# ,J#ðÛ#µ×"û{."ï@×"ãô"ÖÍf"Ê”S       , ý',¡a,¡N,¡:,¡',¡,¡ ,¡ ì, ÿÙ, þÅ, ý±, ü, ûˆ, út, ù`, øK, ÷6, ö", õ, óø, òãé#  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿú%ÿû˜ÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ              €   ÿÿ  .•
+ÿþÿþ  ÿü    ù§ï«                                                 Ô  . Pcÿù)vÿùáÃÿúšÿûRJÿü
+ŽÿüÂÑÿý{ÿþ3Xÿþë›ÿÿ£ß  \" f Ì© „í =0 õs ­· eú > ÖËlîË1TË6óË<¹ËB§ËH¼ËNøËU\Ë[çËb™ËirËpsËw›Ë~êË†aËþË•ÃË°Ë¥ÃË­ýË¶_"JWþ"¾[œ"²"¼"¥êç"™³š"|´"F\"ur"hÛ"\¦J"Pqï"D>2"8
+ò"+ØT"¦:"tÈ"Cò!û§!îä!âµ	!Ö†»       , ç}, ñÍ, ð¸, ï£, î, íw, ìb, ëL, ê6, é , è	, æó, åÝ, äÆ, ã¯, â™, á‚, àk, ßS, Þ<, Ý%èó  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿú%ÿû—ÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ              €   ÿÿ š .|ìÿþÿþ  ÿü    ù^ïª                                                 Ô  / srÿù)vÿùá¹ÿúšÿûRIÿü
+ÿüÂÐÿý{ÿþ3Wÿþëšÿÿ£Þ  \! e Ì¨ „ì =/ õr ­¶ eù = Ö€Ë‘›Ë¾èËÇ˜ËÐoËÙnËâ“ËëßËõSËþíË‘¯Ë‘˜Ë‘§Ë‘&ÞË‘1<Ë‘;ÀË‘FlË‘Q>Ë‘\8Ë‘gXË‘r Ë‘~!VÉç!ÊY!¾,!±ÿ!¥Ó‹!™¨›!~u!Tú!u,N!ie!\Ý/!P¶Ò!D‘/!8lk!,Hg! %F!ü!á| ûÀç ï¡# ã‚Q       , Ñ¨, Ü, Úö, ÙÞ, ØÆ, ×®, Ö–, Õ~, Ôf, ÓN, Ò5, Ñ, Ð, Îë, ÍÒ, Ì¹, Ë , Ê‡, Ém, ÈT, Ç:èÄ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿú$ÿû•ÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ              €   ÿÿ¡7 .bšÿþÿþ  ÿû    ùï«                                                 Ô  0 –}ÿù)yÿùá¼ÿúš ÿûRJÿü
+ŽÿüÂÑÿý{ÿþ3Xÿþë›ÿÿ£ß  \" f Ì© „í =0 õs ­· eú > ÖË‘ÿ:Ë‘‰£Ë‘•_Ë‘¡AË‘­KË‘¹|Ë‘ÅÓË‘ÒPË‘ÞõË‘ëÀË‘ø²Ë’ËË’
+Ë’ pË’-ýË’;°Ë’IŠË’WŠË’e±Ë’sþË’‚r dv) ×dT ËGO ¿+% ³„ ¦õ9 šÛò ŽÃ£ ‚¬; v•â j€v ^l RX» FFp :5 .$ì "Ë « 	ú³ýîÃñä        , »§, Æ!, Å, Ãí, ÂÓ, Á¹, Àž, ¿„, ¾j, ½O, ¼4, », ¹ÿ, ¸ä, ·È, ¶­, µ’, ´v, ³[, ²?, ±#è•  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿú$ÿû’ÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ              €   ÿÿ¡ç .D¾ÿþÿþ  ÿû    øÝï¸                                                 Ô  1 ¹Œÿù)vÿùá¹ÿú™üÿûR@ÿü
+ÿüÂÐÿý{ÿþ3Wÿþëšÿÿ£Þ  \! e Ì¨ „ì =/ õr ­¶ eù = Ö€Ë“#DË’‘Ë’ŸÍË’®µË’½ÂË’Ì÷Ë’ÜRË’ëÓË’ûzË“GË“;Ë“+UË“;•Ë“KüË“\‰Ë“m;Ë“~Ë“Ë“ 9Ë“±„Ë“Âõs·ÄåÚKÙÑÇÍÊhÁÄ!µ¾k©ºŠ·Ø‘¶G…µýy¶Ùm¹ a¼TUÀøIÆÐ=Íü1Öp%à ë-÷y)       , ¥x, °, ®ë, ­Ï, ¬³, «–, ªz, ©], ¨A, §$, ¦, ¤ê, £Í, ¢¯, ¡’,  t, ŸW, ž9, , ›ý, šßèf  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿú#ÿûÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ              €   ÿÿ¢© .'>ÿþÿþ  ÿû    ø¦ïÅ                                                 Ô  2 
+Ü—ÿù)yÿùá¼ÿú™ÿÿûRCÿü
+†ÿüÂÑÿý{ÿþ3Xÿþë›ÿÿ£ß  \" f Ì© „ì =0 õs ­· eú > ÖË”ƒË“ÔË“æJË“ø-Ë”
+6Ë”fË”.»Ë”A6Ë”S×Ë”fžË”yŠË”ŒœË”ŸÔË”³2Ë”ÆµË”Ú^Ë”î-Ë•!Ë•:Ë•*zË•>Þ„æžöê${Þ63ÒI8Æ]¯ºs®ŠA¢¢×–¼èŠØV~õDs”g3j[T·OwnC›²7Áe+èª e;´       , , ™Á, ˜£, —„, –f, •G, ”), “
+, ‘ë, Ì, ­, Ž, n, ŒN, ‹/, Š, ˆï, ‡Ï, †¯, …, „oè6  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿú"ÿû‹ÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ              €   ÿÿ£z .
+ÿþÿþ  ÿû    øpïÚ                                                 Ô  3 =€ÿþëœÿÿ£ß  \" f                                                                Ë•r~Ë•SiË•hË•|îË•‘è                                                                ö¬#gü”åðÃØäôN                                                                   À   , , ƒN, ‚., , í                                                                è  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                ÿÿ      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                ÿÿ      ÿú!ÿûˆÿÿÝÿ      ÿÿÿÿ  ÿÿÿÿÿÿÿÿÿÿÿÿ                                                                ÿÿ        ÿÿÿÿÿ                                ÿÿ        ÿÿÿÿÿ                                ÿÿ              €   ÿÿ£ý -÷ÿþÿþ  ÿû    øSïè                                               
