@@ -1,0 +1,28 @@
+---
+- name: Deploy overskya
+  hosts: local
+  remote_user: ansible
+  vars:
+    nodejs_major_version: 0
+    nodejs_minor_version: 10  
+  roles:
+    - nodejs
+    - overskya
+
+# #Start the server
+- name: Start overskya-server
+  hosts: local
+  remote_user: ansible
+  roles:
+    - setup_overskya_server
+
+# start the nodes
+- name: Start overskya-node
+  hosts: local
+  remote_user: ansible
+  vars: 
+    overskya_server_ip: 178.62.98.218
+    overskya_server_port: 8183
+    node_timeout: 1000
+  roles:
+    - setup_overskya_node
