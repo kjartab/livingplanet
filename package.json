@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/kjartab/livingplanet#readme",
   "dependencies": {
-    "cesium": "^1.18.0"
+    "cesium": "^1.18.0",
+    "materialize-css": "^0.97.5"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
