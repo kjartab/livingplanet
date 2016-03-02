@@ -1,0 +1,13 @@
+---
+- git:
+    accept_hostkey: True
+    dest: ~/projects/livingplanet
+    force: yes
+    update: yes
+    repo: https://github.com/kjartab/livingplanet
+- name: copy nginx config file
+  copy: src=nginx.conf dest=/etc/nginx/conf.d/apps/livingplanet
+  sudo: yes
+
+- name: reload nginx
+  service: name=nginx state=reloaded
