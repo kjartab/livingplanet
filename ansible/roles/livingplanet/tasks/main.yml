@@ -11,3 +11,5 @@
 
 - name: reload nginx
   service: name=nginx state=reloaded
+- name: install npm packages
+  npm: path=~/projects/livingplanet
