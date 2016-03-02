@@ -1,0 +1,44 @@
+1;Data Record Time (MDSR timestamp), as day, second of day and microseconds;TAI;12;signed long + 2*unsigned long 
+2;Measurement Mode;unitless;8;unsigned long long (see table 5.3.1-1) 
+3;Latitude of orbit;1*10^-1 microdegrees;4;signed long
+4;Longitude of orbit;1*10^-1 microdegrees;4;signed long
+5;Altitude of CoG above reference ellipsoid (interpolated value);mm;4;signed long 
+6;Mispointing angle (attitude angle between the antenna boresight and the nadir direction) millidegrees;2;signed short
+7;Number of valid measurements in this record unitless;2;unsigned short
+8;Dry Tropospheric Correction;mm;2;signed short 
+9;Wet Tropospheric Correction;mm;2;signed short 
+10;Inverse Barometric Correction;mm;2;signed short 
+11;Dynamic Atmospheric Correction;mm;2;signed short
+12;Ionospheric Correction *;mm;2;signed short 
+13;Sea State Bias (EM bias only);mm;2;signed short 
+14;Ocean Tide;mm;2;signed short 
+15;Long Period Equilibrium Ocean Tide;mm;2;signed short 
+16;Ocean Loading Tide;mm;2;signed short 
+17;Solid Earth Tide;mm;2;signed short
+18;Geocentric Polar Tide;mm;2;signed short 
+19;Spare;unitless;2;unsigned short
+20;Surface Type Flag;unitless;8;unsigned long long (see table 5.3.2-1)
+21;Mean Sea Surface / Geoid from model**;mm;4;signed long 
+22;Ocean Depth/Land Elevation from model;mm;4;signed long
+23;Ice concentration 1*10^-2;%;2;signed short
+24;Snow depth;mm;2;signed short
+25;Snow density;kg/m^3;2;signed short
+26;Spare;unitless;2;unsigned short
+27;Corrections status flag;unitless;4;unsigned long (see table 5.3.3-1) 
+28;Significant wave height - as yet uncalibrated;mm;2;signed short
+29;Wind speed - as yet uncalibrated;mm/s;2;signed short
+30;Array of spares;unitless;2*4;unsigned short
+31;Delta time (to be added to timestamp above to give measurement time) microseconds;4;signed long
+32;Latitude of echoing point (slope-corrected if applicable) 1*10^-1 microdegrees;4;signed long
+33;Longitude of echoing point (slope-corrected if applicable) 1*10^-1 microdegrees;4;signed long 
+34;Height of surface w.r.t. reference ellipsoid;mm;4;signed long 
+35;Interpolated sea surface height anomaly;mm;2;signed short
+36;Number of interpolated records for sea surface height anomaly;unitless;2;signed short
+37;Sea surface height anomaly interpolation quality;mm;2;signed short
+38;Radar backscatter coefficient (sigma-0), fully corrected, see section 2.5.6;dB/100;2;signed short
+39;Peakiness;1/100;2;unsigned short
+40;Freeboard;mm;2;signed short
+41;Number of echoes or beams averaged ***;unitless;2;unsigned short
+42;Spare;unitless;2;unsigned short
+43;Quality flags;unitless;4;unsigned long (see table 5.3.4-1)
+44;Array of sparesvunitless;2*4;unsigned short

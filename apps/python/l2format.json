@@ -1,0 +1,31 @@
+{
+"format" : {
+    "field" : 1,
+    "description": "Data  Record  Time (MDSR timestamp), as  day, second  of  day and microseconds",
+    "units": "",
+    "bytes": "",
+    "format" : "signed_long"
+}
+}
+
+
+field
+1 
+        TAI 12 Signed    long    +
+2*unsigned  long        
+2 Measurement   Mode unitless 8 unsigned     long   
+long     (see    table  
+5.3.1-1)    
+3 Latitude  of  orbit       1*10^-1 
+microdegrees
+4 signed    long
+4 Longitude of  orbit       1*10^-1 
+microdegrees
+4 signed    long
+5 Altitude   of  CoG     above   reference   ellipsoid  
+(interpolated   value)
+mm 4 signed long        
+6 Mispointing angle (attitude   angle   between the 
+antenna boresight and   the nadir   direction)
+millidegrees 2 signed   short
+7 Number    of  valid   measurements    in  this    record unitless 2 unsigned  short
