@@ -53,7 +53,7 @@
 				<Rel_Time_ASC_Node_Start  unit="s">0000.175615</Rel_Time_ASC_Node_Start>
 				<ABS_Orbit_Stop>029933</ABS_Orbit_Stop>
 				<Rel_Time_ASC_Node_Stop  unit="s">5952.781738</Rel_Time_ASC_Node_Stop>
-				<Equator_Cross_Time>UTC=2015-12-01T03:40:02.677558</Equator_Cross_Time>
+				<Equator_Cross_Longr_Cross_Time>UTC=2015-12-01T03:40:02.677558</Equator_Cross_Time>
 				<Equator_Cross_Long  unit="10-6 deg">-0058750583</Equator_Cross_Long>
 				<Ascending_Flag>A</Ascending_Flag>
 			</Orbit_Information>
