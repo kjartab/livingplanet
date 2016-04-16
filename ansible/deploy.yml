@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 - name: Deploy Livingplanet
+=======
+- name: Deploy livingplanet
+>>>>>>> 034076bc23d5c07eaf7b028dd4dd2bfaa671469a
   hosts: regn
   remote_user: ansible
   roles:
